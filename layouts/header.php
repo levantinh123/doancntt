@@ -27,7 +27,7 @@
     <script src="public/frontend/assets/js/jquery.min.js"></script>
     <script src="public/frontend/assets/js/owl.carousel.min.js"></script>
     <script src="public/frontend/assets/js/main.js"></script>
-    <title>Mixishop</title>
+    <title>SAKURA SHOP</title>
 </head>
 
 <body>
