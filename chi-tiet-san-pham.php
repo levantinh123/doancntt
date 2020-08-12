@@ -28,22 +28,23 @@ $sanphamkemtheo = $db->fetchsql($sql);
         <div class="container">
              <div class="col-md-12 col-md-offset-2">
                 <div class="row" id="" style="background-color: white !important">
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <?php if ($product['sale'] > 0): ?>
                              <label for="" class="product-shock-price">Giảm giá <?php echo $product['sale'] ?>%</label>
                         <?php endif?>
-                        <img src="<?php echo uploads() ?>product/<?php echo $product['thunbar'] ?>" class="product-img hover">
+                        <li><h2><?php echo $product['name'] ?></h2></li>
+                        <img  src="<?php echo uploads() ?>product/<?php echo $product['thunbar'] ?>" class="product-img hover">
 
                         <hr>
                        <div class="text-center">
                              <a class="btn btn-primary" href="add-cart.php?id=<?php echo $id ?>"><i class="fa fa-cart-plus"></i>Mua ngay </a>
                        </div>
                     </div>
-                    <div class="col-md-5" id="overview">
+                    <div class="col-md-6" id="overview">
                         <div class="row">
-                            <div class="col-xs-6 col-md-6">
+                            <div class="col-xs-4 col-md-8">
                                 <ul class="pb-product-details-ul">
-                                    <li><h2><?php echo $product['name'] ?></h2></li>
+                                    
                                     <li></li>
                                     <li>
                                         
@@ -55,8 +56,7 @@ $sanphamkemtheo = $db->fetchsql($sql);
                                         <?php endif?>
                                     </li>
                                     <li><span class="fa fa-id-card-o">&nbsp; <?php echo $product['content']; ?></span></li>
-                                    <li><span class="fa fa-bluetooth-b">&nbsp;Size: 40</span></li>
-                                    <li><span class="fa fa-microchip">&nbsp;Màu: Vàng</span></li>
+                                   
                                 </ul>
                             </div>
 

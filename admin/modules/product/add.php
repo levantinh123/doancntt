@@ -135,10 +135,13 @@
         </div>
         <div class="form-group col-sm-8">
             <label for="exampleInputEmail1">Nội dung</label>
-            <textarea class="form-control" name="content" rows="4"></textarea>
-            <?php if(isset($error['content'])) : ?>
+            <textarea class="form-control" name="content" rows="10"></textarea>
+              <?php if(isset($error['content'])) : ?>
                  <p class="text-danger"><?php echo $error['content'] ?></p> 
               <?php endif ?>
+            <script type="text/javascript"> 
+              CKEDITOR.replace('content');
+            </script>
         </div>
         
         <button type="submit" class="btn btn-success">Lưu</button>

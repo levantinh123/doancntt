@@ -11,7 +11,7 @@
   <link href="<?php echo base_url() ?>public/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url() ?>public/admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <link href="<?php echo base_url() ?>public/admin/css/sb-admin.css" rel="stylesheet">
-  <script type="text/javascript" src="public/ckeditor/ckeditor.js"></script>
+  <script type="text/javascript" src="public/admin/ckeditor/ckeditor.js"></script>
 </head>
 <body id="page-topf">
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">

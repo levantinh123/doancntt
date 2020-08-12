@@ -26,7 +26,7 @@
   <script src="<?php echo base_url() ?>public/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="<?php echo base_url() ?>public/admin/js/sb-admin.min.js"></script>
   <script src="<?php echo base_url() ?>public/admin/js/demo/datatables-demo.js"></script>
-
+  <script type="text/javascript" src="public/admin/ckeditor/ckeditor.js"></script>
 </body>
 
 </html>

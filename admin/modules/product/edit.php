@@ -141,10 +141,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             <label for="exampleInputEmail1">Nội dung</label>
-                 <textarea class="form-control" name="content" rows="4" ><?php echo $editProduct['content'] ?></textarea>
+                 <textarea class="form-control" name="content" rows="10" ><?php echo $editProduct['content'] ?></textarea>
                  <?php if (isset($error['content'])): ?>
                  <p class="text-danger"><?php echo $error['content'] ?></p>
                  <?php endif?>
+                 <script type="text/javascript">
+                    CKEDITOR.replace( 'content');
+                 </script>
         </div>
         <button type="submit" class="btn btn-success">Lưu</button>
     </form>
